@@ -79,9 +79,9 @@ a:link,a:active,a:visited{
 .navbar-logo img {
     width: 80px;
 }
-.image img{
-    display: inline;
-    align-content:center;
+.image {
+    display: flex;
+    justify-content: space-around;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 10%;
